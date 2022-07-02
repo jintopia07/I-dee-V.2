@@ -90,20 +90,3 @@ class ComplaintDocument {
 
 
 
-// {
-//     "complaintId": "T-2564-09-29-0370",
-//     "complaintDate": "29/09/2021",
-//     "refBookNo": null,
-//     "complaintStatusName": "แจ้งเรื่องร้องเรียน",
-//     "complainSystems": "ร้องเรียนโรงงาน",
-//     "complaintDetail": "ทดสอบ",
-//     "locationAreaDetail": "เมืองพัทยา อำเภอบางละมุง ชลบุรี 20150",
-//     "isReceive": "Temp",
-//     "complaintAnswer": [],
-//     "complaintDocument": [
-//         {
-//             "documentUrl": "http://0848-2001-fb1-c3-49c-c1b1-b7be-1bd3-e632.ngrok.io/api/File/VideoStream/1/RNtDdb9l4SYbClOlq-hUYQd7_xTTHg8Vj53oJpisYg56KMqvxNjghCVuwbRyzohZwcRch44qMNp38lMrnLjnyA",
-//             "thumbnailUrl": "http://0848-2001-fb1-c3-49c-c1b1-b7be-1bd3-e632.ngrok.io/api/File/ImageStream/3/DV-Ga5GQzT_rF2CH4-ZyLR-OvWiaxDZEoGVleEbjygjXQG-R5fFka7VoDqjZP1eaLbQY356Zv0EBlTTkqL-OwLCgzBzMDJM-kl4f30W3PIQ"
-//         }
-//     ]
-// }
