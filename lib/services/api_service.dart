@@ -23,7 +23,7 @@ class APIFollow {
 
     var response = await http.post(
         Uri.parse(
-            'https://8b62-2001-fb1-c1-77fc-b09f-5f2b-bd28-5c83.ngrok.io/api/User/Login'),
+            '//'),
         headers: requestHeaders,
         body: body);
     var tokenlogin;
@@ -50,7 +50,7 @@ class APIService {
     );
 
     var response = await http.post(
-        Uri.parse('https://webapitest.industry.go.th/api/User/Login'),
+        Uri.parse('//'),
         headers: requestHeaders,
         body: body);
 
@@ -77,7 +77,7 @@ class APIFactory {
 
     var response = await http.post(
         Uri.parse(
-            'http://webapitest.industry.go.th/api/Factory/GetFactoryById'),
+            '//'),
         headers: requestHeaders,
         body: {
           "id": id,
@@ -101,7 +101,7 @@ class GetComplaintTrans {
       String accessToken) async {
     final response = await http.get(
       Uri.parse(
-          'http://webapitest.industry.go.th/api/Complaint/GetComplaintTrans'),
+          '//'),
       headers: {'Authorization': 'Bearer $accessToken'},
     );
 
@@ -122,7 +122,7 @@ class Getinfo {
 
   static Future<Map<String, dynamic>> getUserDetails(String accessToken) async {
     final response = await http.get(
-      Uri.parse('http://webapitest.industry.go.th/api/User/GetProfile'),
+      Uri.parse('//'),
       headers: {'Authorization': 'Bearer $accessToken'},
     );
 
