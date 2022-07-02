@@ -349,7 +349,7 @@ class _ConfirmFactoryState extends State<ConfirmFactory> {
 
     var response = await http.post(
         Uri.parse(
-            'https://8b62-2001-fb1-c1-77fc-b09f-5f2b-bd28-5c83.ngrok.io/api/Complaint/AddComplaint/P'),
+            '//'),
         headers: requestHeaders,
         body: JsonEncoder().convert(data));
 
@@ -369,7 +369,7 @@ class _ConfirmFactoryState extends State<ConfirmFactory> {
 
     final Dio dio = new Dio();
     String apiSaveProduct =
-        'https://8b62-2001-fb1-c1-77fc-b09f-5f2b-bd28-5c83.ngrok.io/api/File/UploadFileComplaint/$No';
+        '//';
     if (images != null) {
       int count = 0;
       for (var i = 0; i < images.length; i++) {
@@ -397,7 +397,7 @@ class _ConfirmFactoryState extends State<ConfirmFactory> {
     complaint.video = videoFile;
 
     String apiSave =
-        'https://8b62-2001-fb1-c1-77fc-b09f-5f2b-bd28-5c83.ngrok.io/api/File/UploadFileComplaint/$No';
+        '//';
     if (videoFile != null) {
       FormData data = FormData.fromMap({
         "video": await MultipartFile.fromFile(videoFile.path),
