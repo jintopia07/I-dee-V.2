@@ -4,7 +4,7 @@ import 'package:idee_flutter/models/place_search.dart';
 import 'dart:convert' as convert;
 
 class PlacesService {
-  final key = 'AIzaSyDRZXo9fz9-2ij9cEDv57V98LYAmQgg0yA';
+  final key = '//';
 
   Future<List<PlaceSearch>> getAutocomplete(String search) async {
     var response = await http.get(Uri.parse(
